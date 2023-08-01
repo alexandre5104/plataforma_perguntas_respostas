@@ -6,7 +6,7 @@ routesAsk.get('/ask', controllerAsk.selectAll)
 
 routesAsk.get('/ask/:id', controllerAsk.selectById)
 
-routesAsk.delete('/ask/:id', (request, response))
+routesAsk.delete('/ask/:id', controllerAsk.deleta)
 
 routesAsk.post('/ask', controllerAsk.insert)
 
