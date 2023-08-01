@@ -1,10 +1,10 @@
 const express = require('express')
 const app = express()
 
-app.get('/', (request, response) =>{
-    response.send("Minha primeira rota de teste")
-})
+const routesAsk = require('./src/routes/routesAsk')
 
-app.listen(3000, () =>{
+app.use(routesAsk)
+
+app.listen(3000, () => {
     console.log("Servidor rodando!")
 })
