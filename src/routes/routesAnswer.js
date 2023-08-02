@@ -10,4 +10,6 @@ routesAnswer.post('/answer/:id', controllerAnswer.insert)
 
 routesAnswer.put('/answer/:id', controllerAnswer.update)
 
+routesAnswer.get('/answer/ask/:id_ask', controllerAnswer.selectByIdAsk)
+
 module.exports = routesAnswer

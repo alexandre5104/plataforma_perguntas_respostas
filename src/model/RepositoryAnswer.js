@@ -26,13 +26,12 @@ function selectById(id, result) {
     con.query(`SELECT * FROM answer WHERE id = ${id}`, (err, res) => {
         if (err) {
             result(err, null)
-            return
         }
 
         if (res.length) {
             result(null, res[0]);
-            return;
         }
+
         result({ kind: "not_found" }, null);
     })
 }
@@ -47,4 +46,14 @@ function update(id, answer, result) {
     })
 }
 
-module.exports = { selectAll, insert, selectById, update }
+function selectByIdAsk(id_ask, result) {
+    con.query(`SELECT * FROM answer WHERE id_ask = ${id_ask}`, (err, res) =>{
+        if (err) {
+            result(err, null)
+            return
+        }
+        result(null, res)
+    })
+}
+
+module.exports = { selectAll, insert, selectById, update, selectByIdAsk}
