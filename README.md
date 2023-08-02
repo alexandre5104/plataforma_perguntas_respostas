@@ -54,22 +54,18 @@ Para instalá-lo em sua máquina faça os comandos a seguir:
 ```
 http://localhost:3000/ask
 ```
-
 #### GET - Buscar ASK por ID
 ```
 http://localhost:3000/ask/id
 ```
-
 #### DELETE - Deletando ASK utilizando ID
 ```
 http://localhost:3000/ask/id
 ```
-
 #### PUT - Atualizando ASK utilizando id
 ```
 http://localhost:3000/ask/id
 ```
-
 #### POST - Criando ASK
 ```
 http://localhost:3000/ask
@@ -81,22 +77,18 @@ http://localhost:3000/ask
 ```
 http://localhost:3000/answe
 ```
-
 #### GET - Buscar ANSWER por ID
 ```
 http://localhost:3000/answe/id
 ```
-
 #### PUT - Atualizando ANSWER utilizando id
 ```
 http://localhost:3000/answe/id
 ```
-
 #### POST - Criando ANSWER
 ```
 http://localhost:3000/answer/id_ask
 ```
-
 #### POST - Busca de ANSWER por id_ask
 ```
 http://localhost:3000/answer/ask/id_ask
