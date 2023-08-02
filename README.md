@@ -3,15 +3,12 @@
 ### Descrição
 Projeto é uma plataforma de perguntas e respostas utilizando o express.js para construção da api.
 
-### Pré-requisitos
-
-* Node.js versão 16 ou superior;
-* Nodemon - npm i -g nodemon.
-
 ### Instalando
 Antes de você executar o projeto tenha instalado o mysql na sua máquina.
 
 * MySQL (https://www.mysql.com/)
+* Node.js versão 16 ou superior (https://nodejs.org/)
+* Nodemon - npm i -g nodemon.
 
 Para instalá-lo em sua máquina faça os comandos a seguir:
 
