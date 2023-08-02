@@ -96,3 +96,8 @@ http://localhost:3000/answe/id
 ```
 http://localhost:3000/answer/id_ask
 ```
+
+#### POST - Busca de ANSWER por id_ask
+```
+http://localhost:3000/answer/ask/id_ask
+```
